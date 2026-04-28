@@ -1,0 +1,237 @@
+{
+  "hub_version": "1.0",
+  "manifest_schema": 2,
+  "updated": "2026-04-28",
+  "items": [
+    {
+      "id": "RFX_RadialMenu",
+      "name": "RFX Radial Menu",
+      "description": "Hotkey-triggered 8-slot radial menu for fast tool switching in Maya.",
+      "version": "1.0.0",
+      "category": "Workflow",
+      "kind": "plugin",
+      "status": "free",
+      "price": "",
+      "thumbnail": "",
+      "gumroad_url": "",
+      "gumroad_product_id": "",
+      "downloads": [
+        {
+          "url": "https://github.com/amarshindebiz/reimaginefx/releases/download/radialmenu-1.0.0/RFX_RadialMenu.zip",
+          "format": "zip"
+        }
+      ],
+      "install": {
+        "dcc": "maya",
+        "target": "scripts",
+        "subfolder": "RFX_RadialMenu",
+        "entry_point": "RFX_RadialMenu.py"
+      },
+      "coming_soon": false
+    },
+    {
+      "id": "RFX_FocusPicker",
+      "name": "RFX Focus Picker",
+      "description": "Click-to-pick Arnold DOF focus distance via viewport raycasting.",
+      "version": "1.0.0",
+      "category": "Arnold / Camera",
+      "kind": "plugin",
+      "status": "paid",
+      "price": "$12",
+      "thumbnail": "",
+      "gumroad_url": "https://reimagine-fx.gumroad.com/l/rfx-focuspicker",
+      "gumroad_product_id": "REPLACE_WITH_GUMROAD_PRODUCT_ID",
+      "downloads": [
+        {
+          "url": "https://github.com/amarshindebiz/reimaginefx/releases/download/focuspicker-1.0.0/RFX_FocusPicker.zip",
+          "format": "zip"
+        }
+      ],
+      "install": {
+        "dcc": "maya",
+        "target": "scripts",
+        "subfolder": "RFX_FocusPicker"
+      },
+      "coming_soon": false
+    },
+    {
+      "id": "RFX_CrystalGen",
+      "name": "RFX CrystalGen",
+      "description": "Procedural crystal generator with 9 types and Arnold shading presets.",
+      "version": "1.0.0",
+      "category": "Procedural / Geo",
+      "kind": "plugin",
+      "status": "paid",
+      "price": "$18",
+      "thumbnail": "",
+      "gumroad_url": "https://reimagine-fx.gumroad.com/l/rfx-crystalgen",
+      "gumroad_product_id": "REPLACE_WITH_GUMROAD_PRODUCT_ID",
+      "downloads": [
+        {
+          "url": "https://github.com/amarshindebiz/reimaginefx/releases/download/crystalgen-1.0.0/RFX_CrystalGen.zip",
+          "format": "zip"
+        }
+      ],
+      "install": {
+        "dcc": "maya",
+        "target": "scripts",
+        "subfolder": "RFX_CrystalGen"
+      },
+      "coming_soon": false
+    },
+    {
+      "id": "RFX_HoudiniBridge",
+      "name": "RFX Houdini Bridge",
+      "description": "Sample Houdini Python tool delivered as a package folder.",
+      "version": "0.1.0",
+      "category": "Workflow",
+      "kind": "plugin",
+      "status": "free",
+      "price": "",
+      "thumbnail": "",
+      "gumroad_url": "",
+      "gumroad_product_id": "",
+      "downloads": [
+        {
+          "url": "https://github.com/amarshindebiz/reimaginefx/releases/download/houdinibridge-0.1.0/RFX_HoudiniBridge.zip",
+          "format": "zip"
+        }
+      ],
+      "install": {
+        "dcc": "houdini",
+        "target": "scripts",
+        "subfolder": "rfx_houdini_bridge"
+      },
+      "coming_soon": true
+    },
+    {
+      "id": "RFX_BlenderStarter",
+      "name": "RFX Blender Starter",
+      "description": "Sample Blender add-on showing the install flow for Blender targets.",
+      "version": "0.1.0",
+      "category": "Workflow",
+      "kind": "plugin",
+      "status": "free",
+      "price": "",
+      "thumbnail": "",
+      "gumroad_url": "",
+      "gumroad_product_id": "",
+      "downloads": [
+        {
+          "url": "https://github.com/amarshindebiz/reimaginefx/releases/download/blenderstarter-0.1.0/rfx_blender_starter.zip",
+          "format": "zip"
+        }
+      ],
+      "install": {
+        "dcc": "blender",
+        "target": "addons",
+        "subfolder": "rfx_blender_starter"
+      },
+      "coming_soon": true
+    },
+    {
+      "id": "RFX_LightMaps_Pack",
+      "name": "RFX Area Light Maps",
+      "description": "50 curated gradient and IES-style maps for Arnold area lights.",
+      "version": "1.0.0",
+      "category": "HDRIs",
+      "kind": "asset",
+      "status": "paid",
+      "price": "$15",
+      "thumbnail": "",
+      "gumroad_url": "https://reimagine-fx.gumroad.com/l/rfx-lightmaps",
+      "gumroad_product_id": "REPLACE_WITH_GUMROAD_PRODUCT_ID",
+      "downloads": [
+        {
+          "url": "https://github.com/amarshindebiz/reimaginefx/releases/download/lightmaps-1.0.0/RFX_LightMaps.zip",
+          "format": "zip"
+        }
+      ],
+      "install": {
+        "dcc": "any",
+        "target": "library",
+        "library": "hdris",
+        "subfolder": "RFX_LightMaps"
+      },
+      "coming_soon": false
+    },
+    {
+      "id": "RFX_DecalSheet_Pack",
+      "name": "RFX Decal Sheets v1",
+      "description": "Sheets 15-24 \u2014 mech and tank aesthetic, bilingual labels, alpha-ready.",
+      "version": "1.0.0",
+      "category": "Textures",
+      "kind": "asset",
+      "status": "paid",
+      "price": "$22",
+      "thumbnail": "",
+      "gumroad_url": "https://reimagine-fx.gumroad.com/l/rfx-decals",
+      "gumroad_product_id": "REPLACE_WITH_GUMROAD_PRODUCT_ID",
+      "downloads": [
+        {
+          "url": "https://github.com/amarshindebiz/reimaginefx/releases/download/decals-1.0.0/RFX_DecalSheets_v1.zip",
+          "format": "zip"
+        }
+      ],
+      "install": {
+        "dcc": "any",
+        "target": "library",
+        "library": "textures",
+        "subfolder": "RFX_DecalSheets_v1"
+      },
+      "coming_soon": false
+    },
+    {
+      "id": "RFX_DestructionShot_Project",
+      "name": "Destruction Shot Project",
+      "description": "Full Maya/Houdini cinematic destruction project with breakdown.",
+      "version": "1.0.0",
+      "category": "Project Files",
+      "kind": "asset",
+      "status": "paid",
+      "price": "$45",
+      "thumbnail": "",
+      "gumroad_url": "https://reimagine-fx.gumroad.com/l/rfx-destruction",
+      "gumroad_product_id": "REPLACE_WITH_GUMROAD_PRODUCT_ID",
+      "downloads": [
+        {
+          "url": "https://github.com/amarshindebiz/reimaginefx/releases/download/destruction-1.0.0/RFX_DestructionShot.zip",
+          "format": "zip"
+        }
+      ],
+      "install": {
+        "dcc": "any",
+        "target": "library",
+        "library": "projects",
+        "subfolder": "RFX_DestructionShot"
+      },
+      "coming_soon": true
+    },
+    {
+      "id": "RFX_FullPipeline_Course",
+      "name": "Full-Pipeline VFX Training",
+      "description": "Multi-DCC course covering Houdini sim, Maya layout, Arnold lighting, Nuke comp.",
+      "version": "1.0.0",
+      "category": "Training",
+      "kind": "training",
+      "status": "paid",
+      "price": "$79",
+      "thumbnail": "",
+      "gumroad_url": "https://reimagine-fx.gumroad.com/l/rfx-pipeline-course",
+      "gumroad_product_id": "REPLACE_WITH_GUMROAD_PRODUCT_ID",
+      "downloads": [
+        {
+          "url": "https://github.com/amarshindebiz/reimaginefx/releases/download/course-1.0.0/RFX_FullPipeline_Materials.zip",
+          "format": "zip"
+        }
+      ],
+      "install": {
+        "dcc": "any",
+        "target": "library",
+        "library": "projects",
+        "subfolder": "RFX_FullPipeline_Course"
+      },
+      "coming_soon": true
+    }
+  ]
+}
